@@ -1,0 +1,20 @@
+.container{
+    max-width: 900px;
+    display: grid;
+    grid-template-areas: "video-principal propaganda"
+                         "video-principal videos-similares";
+    grid-template-columns: 1fr 270px;
+    grid-template-rows: 56px 1fr;
+}
+
+.video-principal{
+    grid-area: video-principal;
+}
+
+.propaganda{
+    grid-area: propaganda;
+}
+
+.videos-similares{
+    grid-area: videos-similares;
+}
